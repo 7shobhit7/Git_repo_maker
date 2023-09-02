@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repository Information</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <h1>GitHub Repository Information</h1>
+    <form action="/submit" method="POST">
+        <label for="githubUsername">GitHub Username:</label>
+        <input type="text" id="githubUsername" name="githubUsername" required>
+    
+        <label for="githubRepo">GitHub Repository Name:</label>
+        <input type="text" id="githubRepo" name="githubRepo" required>
+    
+        <label for="githubToken">GitHub Token:</label>
+        <input type="text" id="githubToken" name="githubToken" required>
+    
+        <input type="submit" value="Get Repository Info">
+    </form>
+    
+</body>
+</html>
